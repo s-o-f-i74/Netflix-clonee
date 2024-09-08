@@ -1,14 +1,16 @@
 import { useState } from 'react'
 
 import './App.css'
+import "./index.css"
+import Home from './pages/Home/Home'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h1>sofi</h1>
-    </>
+   <div className="App">
+<Home/>
+   </div>
   )
 }
 
